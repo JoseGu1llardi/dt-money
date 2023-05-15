@@ -26,7 +26,7 @@ export function Transactions() {
                         <tr>
                             <td width="50%">Meet</td>
                             <td>
-                                <PriceHighlight variant="outcome">
+                                <PriceHighlight>
                                     -$ 35,00
                                 </PriceHighlight>
                             </td>

@@ -14,7 +14,7 @@ export const TransactionTable = styled.table`
     /* margin-top: 1.5rem; */
     
     td {
-        padding: 1.25rem 2rem;
+        padding: 1.25 2rem;
         background: ${({ theme }) => theme["gray-700"]};
         
         &:first-child {
@@ -27,12 +27,4 @@ export const TransactionTable = styled.table`
             border-bottom-right-radius: 6px;
         }
     }
-`;
-
-interface PriceHighlightProps {
-    variant: "income" | "outcome"
-}
-
-export const PriceHighlight = styled.span<PriceHighlightProps>`
-    color: ${({ theme, variant }) => variant === "income" ? theme["green-300"] : theme["red-300"]};
 `;

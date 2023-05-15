@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 
 import { Summary } from "../../components/Summary";
 
-import { PriceHighlight, TransactionTable, TransactionsContainer } from "./styles";
+import { TransactionsContainer } from "./styles";
 
 export function Transactions() {
     return (
@@ -11,30 +11,22 @@ export function Transactions() {
             <Summary />
 
             <TransactionsContainer>
-                <TransactionTable>
+                <table>
                     <tbody>
                         <tr>
                             <td width="50%">website development</td>
-                            <td>
-                                <PriceHighlight variant="income">
-                                    $ 12.000,00
-                                </PriceHighlight>
-                            </td>
+                            <td>$ 12.000,00</td>
                             <td>Sale</td>
                             <td>13/04/2022</td>
                         </tr>
                         <tr>
                             <td width="50%">Meet</td>
-                            <td>
-                                <PriceHighlight variant="outcome">
-                                    -$ 35,00
-                                </PriceHighlight>
-                            </td>
+                            <td>-$ 35,00</td>
                             <td>Alimentation</td>
                             <td>13/04/2022</td>
                         </tr>
                     </tbody>
-                </TransactionTable>
+                </table>
             </TransactionsContainer>
         </>
     )
