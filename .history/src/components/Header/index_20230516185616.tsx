@@ -15,21 +15,11 @@ export function Header() {
                 <img src={logoImg} alt="" />
 
                 <Dialog.Root>
-                    <Dialog.Trigger asChild>
+                    <Dialog.Trigger>
                         <NewTransactionButton>
                             New transaction
                         </NewTransactionButton>
                     </Dialog.Trigger>
-
-                    <Dialog.Portal>
-                        <Dialog.Overlay />
-
-                        <Dialog.Content>
-                            <Dialog.Title>New transaction</Dialog.Title>
-
-                            <Dialog.Close />
-                        </Dialog.Content>
-                    </Dialog.Portal>
                 </Dialog.Root>
 
             </HeaderContent>

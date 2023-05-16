@@ -22,13 +22,9 @@ export function Header() {
                     </Dialog.Trigger>
 
                     <Dialog.Portal>
-                        <Dialog.Overlay />
+                        <Dialog.Overlay>
 
-                        <Dialog.Content>
-                            <Dialog.Title>New transaction</Dialog.Title>
-
-                            <Dialog.Close />
-                        </Dialog.Content>
+                        </Dialog.Overlay>
                     </Dialog.Portal>
                 </Dialog.Root>
 
