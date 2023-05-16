@@ -7,7 +7,6 @@ import {
 } from "./styles";
 
 import logoImg from "../../assets/Logo (1).svg";
-import { NewTransactionModal } from '../NewTransactionModal';
 
 export function Header() {
     return (
@@ -22,7 +21,15 @@ export function Header() {
                         </NewTransactionButton>
                     </Dialog.Trigger>
 
-                    <NewTransactionModal />
+                    <Dialog.Portal>
+                        <Dialog.Overlay />
+
+                        <Dialog.Content>
+                            <Dialog.Title>New transaction</Dialog.Title>
+
+                            <Dialog.Close />
+                        </Dialog.Content>
+                    </Dialog.Portal>
                 </Dialog.Root>
 
             </HeaderContent>
