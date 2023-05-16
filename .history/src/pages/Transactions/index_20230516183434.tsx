@@ -11,9 +11,9 @@ export function Transactions() {
             <Header />
             <Summary />
 
-            <TransactionsContainer>
-                <SearchForm />
+            <SearchForm />
 
+            <TransactionsContainer>
                 <TransactionTable>
                     <tbody>
                         <tr>
