@@ -103,11 +103,6 @@ export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeBut
                 color: ${({ theme }) => theme.white};
             }
     }
-    
-    &[data-state="unchecked"]:hover {
-        transition: background-color 0.3s;
-        background: ${({ theme }) => theme['gray-600']};
-    }
 `;
 
 export const CloseButton = styled(Dialog.Close)`

@@ -2,7 +2,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 
 import * as RadioGroup from '@radix-ui/react-radio-group';
 
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
 export const OverLay = styled(Dialog.Overlay)`
     position: fixed;
@@ -92,21 +92,12 @@ export const TransactionTypeButton = styled(RadioGroup.Item) <TransactionTypeBut
             theme['red-300']}
     }
     
-    &[data-state="checked"] {
+    &[data-state=":checked"] {
         color: ${({ theme }) => theme.white};
         background: ${({ theme, variant }) =>
         variant === "income" ?
             theme['green-500'] :
             theme['red-500']};
-            
-            svg {
-                color: ${({ theme }) => theme.white};
-            }
-    }
-    
-    &[data-state="unchecked"]:hover {
-        transition: background-color 0.3s;
-        background: ${({ theme }) => theme['gray-600']};
     }
 `;
 
