@@ -23,6 +23,30 @@
       "category": "Education",
       "price": 2000,
       "createdAt": "2023-05-25T12:15:41.240Z"
+    },
+    {
+      "description": "App development",
+      "price": 10000,
+      "category": "Sell",
+      "type": "income",
+      "createdAt": "2023-05-28T22:43:13.185Z",
+      "id": 4
+    },
+    {
+      "description": "Gás",
+      "price": 30,
+      "category": "House",
+      "type": "outcome",
+      "createdAt": "2023-05-28T23:06:17.188Z",
+      "id": 5
+    },
+    {
+      "description": "Electricity",
+      "price": 30,
+      "category": "House",
+      "type": "outcome",
+      "createdAt": "2023-05-28T23:23:46.173Z",
+      "id": 6
     }
   ]
 }
