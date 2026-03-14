@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img alt="dashboard" src=".github/dashboard.png" width="100%">
+  <img alt="dashboard" src="public/screenshot.png" width="100%">
   <img alt="new transaction modal" src=".github/cadastrar-transacao.png" width="100%">
 </p>
 
