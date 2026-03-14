@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FelipeBrenner/ignite-reactjs-dtmoney?color=%2304D361">
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/FelipeBrenner/ignite-reactjs-dtmoney">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/JoseGu1llardi/ignite-reactjs-dtmoney?color=%2304D361">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/JoseGu1llardi/ignite-reactjs-dtmoney">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
